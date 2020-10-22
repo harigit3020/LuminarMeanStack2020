@@ -1,0 +1,14 @@
+var num1=10;
+var num2=2;
+var add=num1+num2;
+console.log("sum="+add);
+var sub=num1-num2;
+console.log("subs="+sub);
+var mul=num1*num2;
+console.log("mul="+mul);
+var div=num1/num2;
+console.log("div="+div);
+var mod=num1%num2;
+console.log("mod="+mod);
+var pow=num1**num2;
+console.log("pow="+pow);

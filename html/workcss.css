@@ -1,0 +1,13 @@
+h3 {
+    color: cornflowerblue;
+}
+
+#selist {
+    border-style: dotted;
+    border-color: chartreuse;
+    color: coral;
+}
+
+.onelist {
+    color: magenta;
+}

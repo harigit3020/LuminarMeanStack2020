@@ -1,0 +1,22 @@
+
+td{
+    font-family: 'Oswald', sans-serif;
+    padding: 5px;
+}
+p{
+    font-family: 'Oswald', sans-serif;
+}
+ul{
+    list-style-type:disc;
+    font-family:'Oswald', sans-serif ;
+}
+
+p.one{
+    color:wheat;
+   
+    font-family: 'Playfair Display', serif;
+    
+}
+div.one{
+    background-color: #ceedf0;
+}

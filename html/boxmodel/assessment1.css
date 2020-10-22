@@ -1,0 +1,37 @@
+h1 {
+    font-family: 'Grandstander', cursive;
+    font-family: 'Lobster', cursive;
+    text-align: center;
+}
+
+#tble {
+    margin-left: 17%;
+}
+
+td {
+    width: 50px;
+    height: 300px;
+    border-style: solid;
+    margin-left: 10%;
+    padding: 60px;
+}
+
+#one {
+    background-color: aqua
+}
+
+#two {
+    background-color: blue;
+}
+
+#three {
+    background-color: blueviolet;
+}
+
+#four {
+    background-color: orange;
+}
+
+#five {
+    background-color: green;
+}

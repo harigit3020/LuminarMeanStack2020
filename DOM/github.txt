@@ -1,0 +1,13 @@
+Repositary-> Company created a repositary in github
+clone ->Developers will clone the respositery into there local system
+push->Developers will make updation in code and push the updated code into repositary
+pull->Developers will pull the updated code form respositary into local system.
+
+Git bash commands
+
+clone-> git clone "repositary path"   
+
+Storage areas to follow wihile pushing
+
+Local storage -----------> Staging area -----------> Local respositary ------------> Remote respositary
+             (git add -A )           (git commit -m "msg")              (git push)
