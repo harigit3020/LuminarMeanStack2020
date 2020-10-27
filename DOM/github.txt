@@ -11,3 +11,5 @@ Storage areas to follow wihile pushing
 
 Local storage -----------> Staging area -----------> Local respositary ------------> Remote respositary
              (git add -A )           (git commit -m "msg")              (git push)
+
+
