@@ -1,0 +1,39 @@
+show dbs -> For listing all databases
+
+use database_name -> creating new database
+
+db.createCollection('collectionname') -> create new collection
+
+show collection -> listing collections in database  
+
+//Creating a db named "college" and performing operation on it
+
+db.collectionname.insert({studentname:"ajay",course:"bca",age:18,total:200}); ->insert a record
+
+db.college.insertMany([{studentname:"ajay",course:"bca",age:18,total:200},{studentname:"sanjay",course:"ba",age:15,total:210},{studentname:"amal",course:"bca",age:20,total:250},{studentname:"vijay",course:"bcom",age:22,total:400}])
+
+db.college.find()->fetch documents
+
+db.college.find().pretty()->fetch in pretty manner
+
+db.college.find({name:"amal"})->fetch particular documents
+
+db.college.find().sort().pretty();
+
+db.college.find({course:{$ne:'bca'}}) -> documents of course not equal to bca 
+
+db.college.find({total:{$lt:300}}) ->$lt: less than
+
+db.college.find({total:{$lte:250}})
+
+db.college.find().count(); -> count documents
+
+db.college.find({course:'bca'}).count() -> count no of documents of course is bca
+
+db.college.find({course:{$ne:'bca'}}).count() -> not equal to bca
+
+db.college.find().forEach(obj=>print(obj.studentname)); -> print all student name in collection named "college"
+
+db.college.update({studentname:"amal"},{$set:{total:200}}) -> update documents
+
+db.college.deleteMany({studentname:"amal"}) -> delete particular student document
