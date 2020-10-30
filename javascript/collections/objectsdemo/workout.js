@@ -1,6 +1,7 @@
 var data="hai hai hai hello hai hello hello by by by";
 var words=data.split(" ");//Spliting data using space
 // console.log(words);
+console.log(words)
 var obj={}
 for(word of words){
     if(word in obj){

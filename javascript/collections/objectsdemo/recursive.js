@@ -9,3 +9,4 @@ for(char of data){
         obj[char]=1
     }
 }
+console.log(obj)

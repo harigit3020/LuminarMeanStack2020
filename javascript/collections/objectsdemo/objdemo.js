@@ -3,7 +3,7 @@
 //  console.log(student);
  console.log(student["name"]);//or(student.name)  fetch data with key
 
- student["total"]=150; //adding new record
+ student['total']=180; //adding new record
  console.log(student);
 
 
