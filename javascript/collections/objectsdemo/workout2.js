@@ -1,4 +1,5 @@
 var arr=[10,10,20,20,30,32,31];
+var tw=
 var cnt={}
 for(num of arr){
     if(num in cnt){
